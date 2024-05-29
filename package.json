@@ -1,11 +1,11 @@
 {
-  "name": "projeto",
+  "name": "projeto1",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000e\u0000v\u0000e\u0000n\u0000t\u0000o\u0000-\u0000l\u0000a\u0000n\u0000d\u0000i\u0000n\u0000g\u0000p\u0000a\u0000g\u0000e\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
+    "cleanup": "rmdir /q /s .parcel-cache dist",
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
-    "build": "parcel build src/index.html", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
